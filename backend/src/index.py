@@ -1,4 +1,4 @@
 #Hello world
 def constructor(args,args0):
-    print("Hello world");
+    print("Hello world")
     pass
