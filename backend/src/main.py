@@ -29,7 +29,7 @@ USERS_DEV=[
   }
 ]
 
-#Modifica desenvolvedores adiciona ou remove
+#Modifica desenvolvedores (adiciona ou remove)
 class developerModify(Resource):
     def put(self,id,name,type):
         dados = json.loads(request.data)
