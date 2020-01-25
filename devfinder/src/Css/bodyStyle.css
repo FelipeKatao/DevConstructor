@@ -1,0 +1,31 @@
+body{
+    background-color: #d2691e;
+}
+main{
+    background-color: #7c3b0c;
+    margin: auto;
+}
+#navBars{
+    display:flex;
+    flex-grow: 1;
+    flex-direction:column;
+    padding: 5px;
+    width: 300px;
+    margin-top: 5px;
+    background-color: #bb550d;
+}
+#mainNav{
+    margin: auto;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    width: 800px;
+}
+/*Responsividade*/
+@media screen and (max-width: 570px){
+    #mainNav{
+        flex-direction: column;
+    }
+}

@@ -1,25 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React,{useState} from 'react';
+import MenuObj from './MenuObj'
+import BarsFlat from './BarsFlat'
+import './Css/bodyStyle.css'
 
 function App() {
+  const[counter,setcounter] = useState(0);
+  function increment(){
+    setcounter(counter+1)
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <MenuObj></MenuObj>
+    <main>
+    <h1>Hello world react!!</h1>
+    <h2>{counter}</h2>
+    <nav id="mainNav">
+    <BarsFlat title="Felipe Katao" techs="Python,JavaScript,React"></BarsFlat>
+    <BarsFlat title="Filipe Dechamps" techs="JavaScript,React,React Native"></BarsFlat>
+    <BarsFlat title="Paulo Torrens" techs="C,Haskell"></BarsFlat>
+    </nav>
+    <button onClick={increment}>Add value</button>
+    </main>
+    </>
   );
 }
 
