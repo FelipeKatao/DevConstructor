@@ -3,7 +3,7 @@ import devfelipe  from './img/Felipe.jpg'
 
 function BarsFlat(props){
     return(
-    <li>
+    <li className="dev-item">
         <header>
             <img src={devfelipe} alt="dev"/>
             <div className='user-info'>

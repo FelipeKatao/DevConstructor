@@ -18,6 +18,7 @@ function App() {
     <BarsFlat title="Felipe Katao" techs="Python,JavaScript,React"></BarsFlat>
     <BarsFlat title="Filipe Dechamps" techs="JavaScript,React,React Native"></BarsFlat>
     <BarsFlat title="Paulo Torrens" techs="C,Haskell"></BarsFlat>
+    <BarsFlat title="Lucas Mioto" techs="Lua,C#"></BarsFlat>
     </nav>
     <button onClick={increment}>Add value</button>
     </main>
