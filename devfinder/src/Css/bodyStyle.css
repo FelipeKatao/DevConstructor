@@ -1,85 +1,36 @@
+/*Body styles*/
 body{
-    background-color: #d2691e;
+    background-color: #828282;
 }
-main{
-    background-color: #7c3b0c;
-    margin: auto;
-}
-#navBars{
-    margin-top: 5px;
-    background-color: #bb550d;
-}
-#mainNav{
-    margin: auto;
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: flex-start;
-    width: 600px;
-}
-li{
-    list-style: none;
-    margin-top: 4px;
-    width: 200px;
+body h1{
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
-}
-li.dev-item {
-    background: #FFF;
-    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);
-    border-radius: 2px;
-    padding: 20px;
-    list-style: none;
+    font-weight: bold;
+    margin-left: 20px;
 }
 
-li.dev-item header {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
 
-li.dev-item header img {
-    width: 54px;
-    height: 54px;
-    border-radius: 4px;
-}
 
-li.dev-item header .user-info {
-    margin-left: 10px;
+/* FormDev Styles*/
+#formComp{
+    background-color: #d2d2d2;
+    border-radius: 6px;
+    height: 280px;
+    width: 240px;
+    flex-direction: column;
+    margin: auto;
+    justify-content:end;
+    padding: 10px;
+    box-shadow: 10px -7px 33px -6px rgba(0,0,0,0.24);
+    position: absolute;
+    margin-left: 40px;
 }
-
-.user-info strong {
-    display: block;
-    font-size: 16px;
-    color: #333;
+#formComp form{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
 }
-
-.user-info span {
-    font-size: 13px;
-    color: #999;
-    margin-top: 2px;
-    text-overflow: clip;
-}
-
-li.dev-item p {
-    color: #666;
-    font-size: 14px;
-    line-height: 20px;
-    margin: 10px 0;
-}
-
-li.dev-item a {
-    color: #8e4dff;
-    font-size: 14px;
-    text-decoration: none;
-}
-
-li.dev-item a:hover {
-    color: #5a2ea6;
-}
-/*Responsividade*/
-@media screen and (max-width: 570px){
-    #mainNav{
-        flex-direction: column;
-    }
+#formComp form input{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #CCC;
 }

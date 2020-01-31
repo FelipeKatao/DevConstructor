@@ -1,29 +1,14 @@
-import React,{useState} from 'react';
-import MenuObj from './MenuObj'
-import BarsFlat from './BarsFlat'
+import React from 'react';
 import './Css/bodyStyle.css'
+import FormDev from './components/forms/FormDev'
 
 function App() {
-  const[counter,setcounter] = useState(0);
-  function increment(){
-    setcounter(counter+1)
-  }
   return (
     <>
-    <MenuObj></MenuObj>
-    <main>
-    <h1>Hello world react!!</h1>
-    <h2>{counter}</h2>
-    <nav id="mainNav">
-    <BarsFlat title="Felipe Katao" techs="Python,JavaScript,React"></BarsFlat>
-    <BarsFlat title="Filipe Dechamps" techs="JavaScript,React,React Native"></BarsFlat>
-    <BarsFlat title="Paulo Torrens" techs="C,Haskell"></BarsFlat>
-    <BarsFlat title="Lucas Mioto" techs="Lua,C#"></BarsFlat>
-    </nav>
-    <button onClick={increment}>Add value</button>
-    </main>
+    <h1>DevConstructor Webkit</h1>
+    <FormDev></FormDev>
     </>
   );
 }
 
-export default App;
+export default App
