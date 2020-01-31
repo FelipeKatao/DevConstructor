@@ -9,8 +9,6 @@ body h1{
     margin-left: 20px;
 }
 
-
-
 /* FormDev Styles*/
 #formComp{
     background-color: #d2d2d2;
@@ -33,4 +31,16 @@ body h1{
 #formComp form input{
     font-family: Arial, Helvetica, sans-serif;
     color: #CCC;
+}
+
+
+
+/*DashBoard comp*/
+#dashBoard{
+    background-color: #CCC;
+    margin-left: 320px;
+    height: 500px;
+    width: 800px;
+    border-radius: 6px;
+    position: absolute;
 }
