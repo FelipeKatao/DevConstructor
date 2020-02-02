@@ -7,7 +7,7 @@ function DashBoard({basedata}){
         <ul id="dashBoard">
            
             {basedata.map(basedata => (
-                         <ItemBoard key={basedata.length-1} dev={basedata}/>
+                         <ItemBoard key={basedata} dev={basedata}/>
                     ))}
         </ul>
     );

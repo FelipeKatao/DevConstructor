@@ -6,9 +6,9 @@ import DashBoard from './components/boardComp/DashBoard'
 function App() {
   let [devs,addDevs]=useState([])
 
-  function addDevsHandrler(){
+  function addDevsHandrler(id){
     let copy=Array.from(devs);
-    copy.push("felipe catao")
+    copy.push(id)
     addDevs(copy)
   }
   return (
