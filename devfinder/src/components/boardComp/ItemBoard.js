@@ -1,14 +1,14 @@
 import React from 'react'
-
+import './item.css'
 function ItemBoard({dev}){
     let obj=JSON.parse(dev)
     //console.log(typeof obj)
 
     return(
-        <li>
-            <div>{obj.name}</div>  
-            <div>{obj.git}</div>
-            <div>{obj.techs}</div>
+        <li className='itemboard'>
+            <div className='titleCard'>{obj.name}</div>  
+            <div className='gitCard'>GitHub:{obj.git}</div>
+            <div className='techsCard'>Techs:{obj.techs}</div>
         </li>
     );
 }
