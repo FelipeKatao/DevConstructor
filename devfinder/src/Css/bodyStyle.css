@@ -37,9 +37,12 @@ body h1{
 
 /*DashBoard comp*/
 #dashBoard{
+    display: flex;
+    flex-flow: row;
+    flex-direction: row;
     background-color: #CCC;
     margin-left: 320px;
-    height: 500px;
+    height: auto;
     width: 800px;
     border-radius: 6px;
     position: absolute;

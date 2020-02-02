@@ -1,10 +1,12 @@
 .itemboard{
     background-color: #757575;
     padding: 10px;
-    margin-top: 10px;
     height:auto;
     width: 200px;
     list-style: none;
+    float: left;
+    margin-top: 4px;
+    margin-left: 4px;
     border-radius: 6px;
 }
 .titleCard{
@@ -24,4 +26,10 @@
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;     
 
+}
+#contDash{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: auto;
 }
